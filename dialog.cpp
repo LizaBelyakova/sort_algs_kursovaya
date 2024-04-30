@@ -1,3 +1,4 @@
+//окно с графиками
 #include "dialog.h"
 #include "ui_dialog.h"
 #include <QVector>
@@ -6,7 +7,7 @@
 #include <String>
 #include <iostream>
 #include <fstream>
-//using namespace std;
+
 using std::vector;
 QVector <double> values = {700, 800,900,1000,2000,3000,5000,6500,7000,10000,13000};
 QVector <double> QSresults(11);
@@ -15,8 +16,6 @@ QVector <double> SSresults(11);
 QVector <double> ISresults(11);
 QVector <double> HSresults(11);
 std::string help;
-//int arr[5];
-//vector <int> v;
 
 
 void filereading(){
