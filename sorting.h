@@ -1,6 +1,7 @@
 #include <vector>
 
 using namespace std;
+//объявление функций сортировки и вспомогательных функций
 void quicksort(vector<int> &v, int left, int right);
 int partition(vector<int> &v, int left, int right);
 void bubblesort(vector<int> v, int n);
